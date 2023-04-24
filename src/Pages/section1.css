@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.middleheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

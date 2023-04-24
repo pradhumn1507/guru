@@ -1,0 +1,33 @@
+
+.container{  
+    height:500px;
+    background:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .react-logo{
+    display: inline-block;
+    border-radius:50%;
+    border:10px solid #fff;
+    animation-name:rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .react-logo {
+    position:absolute;
+    display: inline-block;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+  }
+
+  @keyframes rotate{
+
+    100%{
+      transform:rotate(360deg);
+    }
+  }
